@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="swaglabstestcases.Listeners"/>
+</listeners>
+
+  <test name="Systemtesting">
+    <classes>
+      <class name="swaglabstestcases.SystemTesting"/>
+    </classes>
+  </test>
+  
+  <test name="validationtesting1">
+    <classes>
+      <class name="swaglabstestcases.Validationtesting"/>
+      <methods>
+      <include name="validatenavbar"></include>
+      </methods>
+    </classes>
+  </test>
+  
+  <test name="validationtesting2">
+    <classes>
+      <class name="swaglabstestcases.Validationtesting"/>
+      <methods>
+      <include name="verifyapptitle"></include>
+      </methods>
+    </classes>
+  </test>
+  
+   
+</suite> 

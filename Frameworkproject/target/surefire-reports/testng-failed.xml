@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="swaglabstestcases.Listeners"/>
+  </listeners>
+  <test name="validationtesting2(failed)" parallel="none">
+    <classes>
+      <class name="swaglabstestcases.SystemTesting">
+        <methods>
+          <include name="teardown"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- swaglabstestcases.SystemTesting -->
+      <class name="swaglabstestcases.Validationtesting">
+        <methods>
+          <include name="verifyapptitle"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="getdriver"/>
+          <include name="getdriver"/>
+        </methods>
+      </class> <!-- swaglabstestcases.Validationtesting -->
+    </classes>
+  </test> <!-- validationtesting2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

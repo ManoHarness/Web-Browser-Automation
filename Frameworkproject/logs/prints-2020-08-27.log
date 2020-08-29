@@ -1,0 +1,7 @@
+08:40:53.911 [main] INFO  resources.Base - Navigated to checkout page
+08:40:57.365 [main] INFO  resources.Base - Navigated to final checkout page
+08:41:01.913 [main] INFO  resources.Base - test complete
+08:41:16.371 [main] INFO  resources.Base - Driver is initialized
+08:41:19.412 [main] INFO  resources.Base - Navigated to swaglabs login page
+08:41:21.499 [main] INFO  resources.Base - Navigated to swaglabs products page
+08:41:21.712 [main] INFO  resources.Base - navigation bar is displayed

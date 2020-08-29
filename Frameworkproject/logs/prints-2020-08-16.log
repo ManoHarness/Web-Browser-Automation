@@ -1,0 +1,8 @@
+15:47:44.705 [main] INFO  resources.Base - Driver is initialized
+15:47:48.010 [main] INFO  resources.Base - Navigated to swaglabs login page
+15:47:51.668 [main] INFO  resources.Base - Navigated to swaglabs products page
+15:47:55.004 [main] INFO  resources.Base - Navigated to checkout page
+15:47:57.530 [main] INFO  resources.Base - Navigated to final checkout page
+15:47:58.867 [main] INFO  resources.Base - test complete
+15:48:12.801 [main] INFO  resources.Base - Driver is initialized
+15:48:15.859 [main] INFO  resources.Base - Navigated to swaglabs login page

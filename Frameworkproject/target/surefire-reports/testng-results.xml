@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="122769" started-at="2020-08-29T11:30:43Z" finished-at="2020-08-29T11:32:46Z">
+    <groups>
+    </groups>
+    <test name="Systemtesting" duration-ms="81365" started-at="2020-08-29T11:30:43Z" finished-at="2020-08-29T11:32:05Z">
+      <class name="swaglabstestcases.SystemTesting">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="getdriver" is-config="true" duration-ms="65736" started-at="2020-08-29T17:00:43Z" finished-at="2020-08-29T17:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method status="PASS" signature="buyproductscenario()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="buyproductscenario" duration-ms="14405" started-at="2020-08-29T17:01:49Z" finished-at="2020-08-29T17:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyproductscenario -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="teardown" is-config="true" duration-ms="1137" started-at="2020-08-29T17:02:04Z" finished-at="2020-08-29T17:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- swaglabstestcases.SystemTesting -->
+    </test> <!-- Systemtesting -->
+    <test name="validationtesting1" duration-ms="20300" started-at="2020-08-29T11:32:06Z" finished-at="2020-08-29T11:32:26Z">
+      <class name="swaglabstestcases.Validationtesting">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="getdriver" is-config="true" duration-ms="16476" started-at="2020-08-29T17:02:06Z" finished-at="2020-08-29T17:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method status="PASS" signature="validatenavbar()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="validatenavbar" duration-ms="2331" started-at="2020-08-29T17:02:23Z" finished-at="2020-08-29T17:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatenavbar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="teardown" is-config="true" duration-ms="1492" started-at="2020-08-29T17:02:25Z" finished-at="2020-08-29T17:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- swaglabstestcases.Validationtesting -->
+    </test> <!-- validationtesting1 -->
+    <test name="validationtesting2" duration-ms="19719" started-at="2020-08-29T11:32:26Z" finished-at="2020-08-29T11:32:46Z">
+      <class name="swaglabstestcases.Validationtesting">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="getdriver" is-config="true" duration-ms="14607" started-at="2020-08-29T17:02:26Z" finished-at="2020-08-29T17:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method status="PASS" signature="verifyapptitle()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="verifyapptitle" duration-ms="15" started-at="2020-08-29T17:02:41Z" finished-at="2020-08-29T17:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyapptitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="teardown" is-config="true" duration-ms="5095" started-at="2020-08-29T17:02:41Z" finished-at="2020-08-29T17:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- swaglabstestcases.Validationtesting -->
+    </test> <!-- validationtesting2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,8 +1,8 @@
-17:02:04.043 [main] INFO  resources.Base - test complete
-17:02:19.306 [main] INFO  resources.Base - Driver is initialized
-17:02:23.068 [main] INFO  resources.Base - Navigated to swaglabs login page
-17:02:25.138 [main] INFO  resources.Base - Navigated to swaglabs products page
-17:02:25.398 [main] INFO  resources.Base - navigation bar is displayed
-17:02:36.930 [main] INFO  resources.Base - Driver is initialized
-17:02:41.586 [main] INFO  resources.Base - Navigated to swaglabs login page
-17:02:41.601 [main] INFO  resources.Base - app title is verified
+17:02:41.601 [main] INFO  resources.Base - test is completed
+18:41:49.164 [main] INFO  resources.Base - Driver is initialized
+18:42:02.481 [main] INFO  resources.Base - Navigated to swaglabs login page
+18:42:14.455 [main] INFO  resources.Base - Navigated to swaglabs products page
+18:42:16.986 [main] INFO  resources.Base - Navigated to checkout page
+18:42:18.912 [main] INFO  resources.Base - Navigated to final checkout page
+18:42:20.239 [main] INFO  resources.Base - test complete
+18:42:53.851 [main] INFO  resources.Base - Driver is initialized

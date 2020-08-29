@@ -20,6 +20,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -38,12 +39,18 @@ public class Base {
 		fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		p = new Properties();
 		p.load(fis);
-		String browsername =p.getProperty("browser");
+		String browsername =System.getProperty("browser");
 		
-		if(browsername.equals("chrome"))
+		if(browsername.contains("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe");
-			driver= new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			if(browsername.contains("headless"))
+			{
+				options.addArguments("headless");
+			}
+			
+			driver= new ChromeDriver(options);
 			driver.manage().window().maximize();
 		}
 		

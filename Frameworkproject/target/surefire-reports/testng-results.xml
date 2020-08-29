@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="122769" started-at="2020-08-29T11:30:43Z" finished-at="2020-08-29T11:32:46Z">
+  <suite name="Suite" duration-ms="205667" started-at="2020-08-29T13:10:36Z" finished-at="2020-08-29T13:14:02Z">
     <groups>
     </groups>
-    <test name="Systemtesting" duration-ms="81365" started-at="2020-08-29T11:30:43Z" finished-at="2020-08-29T11:32:05Z">
+    <test name="Systemtesting" duration-ms="110109" started-at="2020-08-29T13:10:36Z" finished-at="2020-08-29T13:12:27Z">
       <class name="swaglabstestcases.SystemTesting">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="getdriver" is-config="true" duration-ms="65736" started-at="2020-08-29T17:00:43Z" finished-at="2020-08-29T17:01:49Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="getdriver" is-config="true" duration-ms="85722" started-at="2020-08-29T18:40:36Z" finished-at="2020-08-29T18:42:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="buyproductscenario()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="buyproductscenario" duration-ms="14405" started-at="2020-08-29T17:01:49Z" finished-at="2020-08-29T17:02:04Z">
+        <test-method status="PASS" signature="buyproductscenario()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="buyproductscenario" duration-ms="16964" started-at="2020-08-29T18:42:03Z" finished-at="2020-08-29T18:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyproductscenario -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="teardown" is-config="true" duration-ms="1137" started-at="2020-08-29T17:02:04Z" finished-at="2020-08-29T17:02:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.SystemTesting@7c137fd5]" name="teardown" is-config="true" duration-ms="6292" started-at="2020-08-29T18:42:20Z" finished-at="2020-08-29T18:42:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- swaglabstestcases.SystemTesting -->
     </test> <!-- Systemtesting -->
-    <test name="validationtesting1" duration-ms="20300" started-at="2020-08-29T11:32:06Z" finished-at="2020-08-29T11:32:26Z">
+    <test name="validationtesting1" duration-ms="60333" started-at="2020-08-29T13:12:31Z" finished-at="2020-08-29T13:13:31Z">
       <class name="swaglabstestcases.Validationtesting">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="getdriver" is-config="true" duration-ms="16476" started-at="2020-08-29T17:02:06Z" finished-at="2020-08-29T17:02:23Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="getdriver" is-config="true" duration-ms="55986" started-at="2020-08-29T18:42:31Z" finished-at="2020-08-29T18:43:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="validatenavbar()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="validatenavbar" duration-ms="2331" started-at="2020-08-29T17:02:23Z" finished-at="2020-08-29T17:02:25Z">
+        <test-method status="PASS" signature="validatenavbar()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="validatenavbar" duration-ms="2758" started-at="2020-08-29T18:43:27Z" finished-at="2020-08-29T18:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatenavbar -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="teardown" is-config="true" duration-ms="1492" started-at="2020-08-29T17:02:25Z" finished-at="2020-08-29T17:02:26Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@533bda92]" name="teardown" is-config="true" duration-ms="1573" started-at="2020-08-29T18:43:29Z" finished-at="2020-08-29T18:43:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- swaglabstestcases.Validationtesting -->
     </test> <!-- validationtesting1 -->
-    <test name="validationtesting2" duration-ms="19719" started-at="2020-08-29T11:32:26Z" finished-at="2020-08-29T11:32:46Z">
+    <test name="validationtesting2" duration-ms="30975" started-at="2020-08-29T13:13:31Z" finished-at="2020-08-29T13:14:02Z">
       <class name="swaglabstestcases.Validationtesting">
-        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="getdriver" is-config="true" duration-ms="14607" started-at="2020-08-29T17:02:26Z" finished-at="2020-08-29T17:02:41Z">
+        <test-method status="PASS" signature="getdriver()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="getdriver" is-config="true" duration-ms="29653" started-at="2020-08-29T18:43:31Z" finished-at="2020-08-29T18:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdriver -->
-        <test-method status="PASS" signature="verifyapptitle()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="verifyapptitle" duration-ms="15" started-at="2020-08-29T17:02:41Z" finished-at="2020-08-29T17:02:41Z">
+        <test-method status="PASS" signature="verifyapptitle()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="verifyapptitle" duration-ms="23" started-at="2020-08-29T18:44:01Z" finished-at="2020-08-29T18:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyapptitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="teardown" is-config="true" duration-ms="5095" started-at="2020-08-29T17:02:41Z" finished-at="2020-08-29T17:02:46Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:swaglabstestcases.Validationtesting@52f27fbd]" name="teardown" is-config="true" duration-ms="1297" started-at="2020-08-29T18:44:01Z" finished-at="2020-08-29T18:44:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
